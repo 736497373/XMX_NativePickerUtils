@@ -1,0 +1,44 @@
+PODS:
+  - BRPickerView (2.7.3):
+    - BRPickerView/AddressPickerView (= 2.7.3)
+    - BRPickerView/Base (= 2.7.3)
+    - BRPickerView/DatePickerView (= 2.7.3)
+    - BRPickerView/StringPickerView (= 2.7.3)
+  - BRPickerView/AddressPickerView (2.7.3):
+    - BRPickerView/Base
+  - BRPickerView/Base (2.7.3)
+  - BRPickerView/DatePickerView (2.7.3):
+    - BRPickerView/Base
+  - BRPickerView/StringPickerView (2.7.3):
+    - BRPickerView/Base
+  - Flutter (1.0.0)
+  - native_picker_utils (0.0.1):
+    - BRPickerView
+    - Flutter
+    - YYModel
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - native_picker_utils (from `.symlinks/plugins/native_picker_utils/ios`)
+
+SPEC REPOS:
+  trunk:
+    - BRPickerView
+    - YYModel
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  native_picker_utils:
+    :path: ".symlinks/plugins/native_picker_utils/ios"
+
+SPEC CHECKSUMS:
+  BRPickerView: 9cc11880ac79c4872d081ccb88f306224c1501d7
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  native_picker_utils: 64213d02b0cd07478af0283c40b031ec06412ae2
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 8e679eca47255a8ca8067c4c67aab20e64cb974d
+
+COCOAPODS: 1.10.0
